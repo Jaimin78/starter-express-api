@@ -1,5 +1,5 @@
 const {MongoClient} = require('mongodb');
-const url = "mongodb+srv://Jaimin:jaimin@jaimin.qjzvkio.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://Jaimin:jaimin@jaimin.qjzvkio.mongodb.net/Jaimin?retryWrites=true&w=majority";
 const database = "Jaimin";
 
 const client = new MongoClient(url)
