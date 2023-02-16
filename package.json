@@ -1,22 +1,22 @@
 {
-  "name": "nodejs",
+  "name": "starter-express-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  },
+  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "expresss": "^0.0.0",
-    "mongodb": "^5.0.1",
-    "mongosh": "^1.7.0",
-    "node-fetch": "^3.2.6",
-    "nodemon": "^2.0.20"
+    "express": "^4.17.1"
   }
 }
